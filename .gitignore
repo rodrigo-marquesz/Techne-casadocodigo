@@ -1,0 +1,9 @@
+##IGNORED FILES##
+
+##FROM IntellijIDEA##
+
+*.idea
+*.settings
+**/target
+*.classpath
+*.project

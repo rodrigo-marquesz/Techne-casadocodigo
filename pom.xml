@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.com.casadocodigo</groupId>
+  <artifactId>casadocodigo</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <build>
+    <finalName>casadocodigo</finalName>
+  </build>
+  <properties>
+    <failOnMissingWebXml>false</failOnMissingWebXml>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+    <dependencies>
+      <dependency>
+        <groupId>javax</groupId>
+        <artifactId>javaee-api</artifactId>
+        <version>7.0</version>
+        <scope>provided</scope>
+      </dependency>
+      <dependency>
+        <groupId>javax.enterprise</groupId>
+        <artifactId>cdi-api</artifactId>
+        <version>2.0.SP1</version>
+      </dependency>
+      <dependency>
+        <groupId>org.omnifaces</groupId>
+        <artifactId>omnifaces</artifactId>
+        <version>2.7.20</version>
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/javax.persistence/javax.persistence-api -->
+      <dependency>
+        <groupId>javax.persistence</groupId>
+        <artifactId>javax.persistence-api</artifactId>
+        <version>2.2</version>
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/javax.transaction/jta -->
+      <dependency>
+        <groupId>javax.transaction</groupId>
+        <artifactId>jta</artifactId>
+        <version>1.1</version>
+        <scope>compile</scope>
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+      <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-core</artifactId>
+        <version>5.6.14.Final</version>
+      </dependency>
+      <dependency>
+        <groupId>javax.faces</groupId>
+        <artifactId>javax.faces-api</artifactId>
+        <version>2.3</version>
+        <scope>compile</scope>
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
+      <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-entitymanager</artifactId>
+        <version>5.6.14.Final</version>
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/org.hibernate.javax.persistence/hibernate-jpa-2.1-api -->
+      <dependency>
+        <groupId>org.hibernate.javax.persistence</groupId>
+        <artifactId>hibernate-jpa-2.1-api</artifactId>
+        <version>1.0.2.Final</version>
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate -->
+      <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate</artifactId>
+        <version>3.5.4-Final</version>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.spec.javax.transaction</groupId>
+        <artifactId>jboss-transaction-api_1.1_spec</artifactId>
+        <version>1.0.1.Final</version>
+      </dependency>
+      <dependency>
+        <groupId>javaee</groupId>
+        <artifactId>javaee-api</artifactId>
+        <version>5</version>
+      </dependency>
+      <dependency>
+        <groupId>org.hibernate.validator</groupId>
+        <artifactId>hibernate-validator</artifactId>
+        <version>6.0.0.Final</version>
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/javax/javaee-api -->
+    </dependencies>
+</project>
