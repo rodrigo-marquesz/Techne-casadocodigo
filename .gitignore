@@ -2,8 +2,8 @@
 
 ##FROM IntellijIDEA##
 
-*.idea
-*.settings
-**/target
-*.classpath
-*.project
+*idea
+*settings
+*target
+*classpath
+*project
