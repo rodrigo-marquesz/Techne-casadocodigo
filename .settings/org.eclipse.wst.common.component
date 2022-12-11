@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="casadocodigo">
+        <wb-resource deploy-capaPath="/" source-capaPath="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-capaPath="/" source-capaPath="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-capaPath="/WEB-INF/classes" source-capaPath="/src/main/java"/>
+        <wb-resource deploy-capaPath="/WEB-INF/classes" source-capaPath="/src/main/resources"/>
+        <property name="context-root" value="casadocodigo"/>
+        <property name="java-output-capaPath" value="/casadocodigo/target/classes"/>
+    </wb-module>
+</project-modules>
